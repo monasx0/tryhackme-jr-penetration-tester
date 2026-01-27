@@ -12,7 +12,7 @@ When an SSL/TLS certificate is created for a domain. CA (Certificate Authorities
  Below is the websites that offers a database of certificates that shows current and historical results.
  [crt.sh](https://crt.sh/)
 ### Search Engines
-Search engines contains trillions of links to more than one billion websites which can be excellent for subdomain enumeration. we can use Google search engine with filters to look for subdomains. For Example, `site:*.google.com -site:www.google.com` first parameter show the website that contains `google.com` in its domain and the second parameter excludes the results from `www.google.com` resulting in to showing subdomains.
+Search engines contains trillions of links to more than one billion websites which can be excellent for subdomain enumeration. we can use Google search engine with filters to look for subdomains. For example, `site:*.google.com -site:www.google.com` first parameter show the website that contains `google.com` in its domain and the second parameter excludes the results from `www.google.com` resulting in to showing subdomains.
 ### OSINT Sublist3r
 To speed up the process of OSINT subdomain discovery, we can automate the above methods using tools like Sublist3r. Sublist3r is an open‑source OSINT tool designed to enumerate subdomains of a target domain by querying multiple public sources such as search engines, DNS records, and certificate transparency logs. It helps security researchers and penetration testers quickly identify subdomains without actively interacting with the target system.
 ## DNS Brute Force
