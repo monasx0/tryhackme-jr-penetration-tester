@@ -1,4 +1,5 @@
-# IDOR
+# Authentication Bypass
+
 ## Username Enumeration
 Website error messages can be a great source for collecting information to build a list of valid usernames. For example, if we put `admin` in the username field and try to log in website responses with an error called "username already registered". We can use this to our advantage by running a tool called `ffuf` that can check multiple usernames that are already registered on the website at once from the provided wordlist.
 #### Example usage of `ffuf`:
