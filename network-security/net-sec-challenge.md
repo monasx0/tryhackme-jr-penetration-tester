@@ -16,7 +16,7 @@ sudo nmap <MACHINE_IP>
 **Result**:
 
 - Highest open port < 10000 → **8080**
-- Open port > 10000 → **10021**
+
 ---
 ## 2. All Port Scan
 Used to identify services running on discovered ports.
